@@ -1,0 +1,13 @@
+n=int(input("Enter the money to be withdrawn : "))
+h=1
+a=n-100
+2t=a//2000
+rem=a%2000
+5h=rem//500
+r=rem%500
+h+=r//100
+
+print("The no of notes required for %d amount are as follows : "%n)
+print("Number of 2000 notes : ",2t)
+print("Number of 500 notes : ",5h)
+print("Number  of hundred notes : ",h)
